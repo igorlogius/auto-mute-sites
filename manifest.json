@@ -1,0 +1,17 @@
+{
+  "author": "igorlogius",
+  "homepage_url": "https://github.com/igorlogius/mute-origin",
+  "browser_action": {
+    "default_area": "navbar"
+  },
+  "background": {
+    "scripts": ["background.js"]
+  },
+  "icons": {
+    "474": "icon.png"
+  },
+  "manifest_version": 2,
+  "name": "Mute Origin",
+  "permissions": ["storage", "tabs"],
+  "version": "1.0.0"
+}
