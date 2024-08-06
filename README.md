@@ -4,7 +4,7 @@ Quickly find text in all open and active tabs
 
 <b>Short Demo Video:</b>
 
-tbd.
+https://github.com/user-attachments/assets/70d34d53-ae3f-4e9f-a070-13ab6e8ba014
 
 <b>Usage/Features:</b>
 <ul>
