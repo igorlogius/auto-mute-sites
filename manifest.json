@@ -12,6 +12,7 @@
   },
   "manifest_version": 2,
   "name": "Mute Origin",
+  "description": "Mute Tabs by Origin (aka. Site / Proto+Domain+Port)",
   "permissions": ["storage", "tabs"],
-  "version": "1.0.0"
+  "version": "1.0.1"
 }

@@ -14,7 +14,7 @@ async function setToStorage(id, value) {
 }
 
 function onTabUpdated(tabId, changeInfo, tabInfo) {
-  if (changeInfo.url) {
+  if (changeInfo.url && typeof changeInfo.url === 'string' && changeInfo.url.startsWith('http')) {
     if (mutedOrigins.has(new URL(changeInfo.url).origin)) {
       browser.tabs.update(tabId, {
         muted: true,
@@ -36,7 +36,10 @@ browser.tabs.onUpdated.addListener(onTabUpdated, { properties: ["url"] });
 })();
 
 browser.browserAction.onClicked.addListener(async (tab, info) => {
-  // get All Tabs that have the same origin
+
+  if(!tab.url.startsWith('http')){
+    return;
+  }
   const url = new URL(tab.url);
 
   let doOriginUnmute = false;
@@ -81,5 +84,5 @@ async function updateBadge(activeInfo) {
 browser.tabs.onActivated.addListener(updateBadge);
 
 browser.browserAction.setBadgeBackgroundColor({
-  color: "green",
+  color: "lightgreen",
 });

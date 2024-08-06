@@ -1,4 +1,4 @@
-Quickly find text in all open and active tabs
+Mute Tabs by Origin (aka. Site / Proto+Domain+Port)
 
 ### [Click here to report a bug, make a suggestion or ask a question](https://github.com/igorlogius/igorlogius/issues/new/choose)
 
