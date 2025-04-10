@@ -1,4 +1,4 @@
-Mute Tabs by Origin (aka. Site / Proto+Domain+Port)
+Mute Tabs by Site 
 
 ### [Click here to report a bug, make a suggestion or ask a question](https://github.com/igorlogius/igorlogius/issues/new/choose)
 
