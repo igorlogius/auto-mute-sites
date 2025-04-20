@@ -1,6 +1,6 @@
 {
   "author": "igorlogius",
-  "homepage_url": "https://github.com/igorlogius/mute-sites",
+  "homepage_url": "https://github.com/igorlogius/auto-mute-sites",
   "browser_action": {
     "default_area": "navbar"
   },
@@ -11,8 +11,8 @@
     "474": "icon.png"
   },
   "manifest_version": 2,
-  "name": "Mute Sites",
+  "name": "Auto Mute Sites",
   "description": "Mute or Unmute entire websites instead of individual tabs",
   "permissions": ["storage", "tabs"],
-  "version": "1.1.5"
+  "version": "1.2.5"
 }
